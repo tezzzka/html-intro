@@ -1,0 +1,55 @@
+* {
+    margin:0;
+    padding: 0;
+    background: #f8f8f8;
+}
+@font-face {
+    font-family: 'Syne Tactile', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Syne+Mono&family=Syne+Tactile&display=swap') format('truetype');
+}
+ul a {
+    color: chocolate;
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+h1 {
+    color: #000;
+    size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea !important;
+}
+h4 {
+    color: #707070;
+    size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    font-weight: 300;
+}
+.more {
+    color: #484343;
+    size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+.characters li {
+    color: #900d90;
+	padding: 16px 0 16px 20px;
+	list-style: none;
+	background-image: url("https://www.pngfind.com/pngs/m/55-559850_check-mark-check-png-transparent-png.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 16px;
+    
+}
+
+input {
+    width: 20vw;
+    height: 3vh;
+    color: #700000;
+    text-decoration: line-through;
+    font-family: 'Syne Tactile', cursive;
+
+}
