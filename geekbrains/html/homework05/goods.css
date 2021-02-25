@@ -1,0 +1,32 @@
+p::first-letter {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5vw;
+}
+
+
+.goodsContent {
+    float: left;
+    width: 80vw;
+}
+.goods {
+    display: block;
+    height: 120px;
+    float: left;
+    width: 70px;
+}
+.clear {
+    clear: left;
+}
+
+.button {
+    color: #fff; 
+    text-decoration: none; 
+    user-select: none; 
+    background: #7F0055; 
+    padding: .7em 1.5em; 
+    outline: none; 
+    cursor: pointer;
+    border: none;
+  } 
+  .button:hover { background: #AEF100; transition: background-color 0.5s ease-out;} 
+  .button:active { background: #AEF100; } 

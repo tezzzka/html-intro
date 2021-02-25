@@ -1,0 +1,151 @@
+* {
+    margin:2vh 1vh 0 1vh;
+    padding: 0;
+    background: #E165B9;
+    font-family: 'Oswald', sans-serif;
+    color: #7F0055;
+}
+
+.container {
+    width: 75%;
+    border: 1px solid red;
+    height: 30px;
+    margin: auto;
+}
+footer {
+    background-color: #C4F83E;
+    height: 5vh;
+
+}
+footer > i {
+    float: right;
+    background-color: #C4F83E;
+}
+
+header {
+    overflow: hidden;
+    border: 1px solid red;
+    height: 30vh;
+}
+header img {
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    width: 128px;
+    height: 128px;
+    border: 4px dotted #AEF100;
+    float: left;
+}
+.menu-main {
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style: none;
+    
+  }
+.menu-main li {
+      display: block;
+      vertical-align: middle;
+}
+.menu-main li:after {
+
+    color: #7F0055;
+    display: inline-block;
+
+}
+.menu-main li:last-child:after {
+    content: none;
+}
+.menu-main a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 34px 0 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {
+    color: #7F0055;
+}
+.menu-main a.current, .menu-main a:hover{
+    color: #C4F83E;
+}
+.menu-main a:before,
+.menu-main a:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    top: auto;
+    right: 50%;
+    bottom: -5px;
+    left: 50%;
+    background: #C4F83E;
+    transition: .25s;
+}
+.menu-main a:hover:before, .menu-main .current:before {
+    left: 0;
+}
+.menu-main a:hover:after, .menu-main .current:after {
+    right: 0;
+}   
+@media (max-width: 550px) {
+  .menu-main {padding-top: 0;}
+  .menu-main li {display: block;}
+  .menu-main li:after {content: none;}
+  .menu-main a {
+    padding: 25px 0 20px; 
+    margin: 0 30px;
+  }
+}
+   
+h1 {
+    font-weight: 400;
+}
+h4 {
+    color: #707070;
+    size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    font-weight: 300;
+}
+.more {
+    color: #484343;
+    size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+.characters li {
+    color: #900d90;
+	padding: 16px 0 16px 20px;
+	list-style: none;
+	background-image: url("https://www.pngfind.com/pngs/m/55-559850_check-mark-check-png-transparent-png.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 16px;
+    
+}
+
+input {
+    width: 20vw;
+    height: 3vh;
+    color: #700000;
+    text-decoration: line-through;
+    font-family: 'Syne Tactile', cursive;
+    background-color: #AEF100;
+    text-transform: uppercase;
+}
+
+hr {
+    border: 4px dotted #AEF100	;
+}
+
+.goods {
+    border: 2px dotted #AEF100;
+}
+.goods:hover{
+    border: 2px dotted transparent;
+}
